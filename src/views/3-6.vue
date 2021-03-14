@@ -21,6 +21,7 @@ export default {
       .catch((err) => {
         console.log(err);
       });
+
     // message可选
     let message = "";
     source.cancel(message);
