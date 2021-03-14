@@ -7,7 +7,7 @@
 import axios from "axios";
 
 export default {
-  name: "axios3-4",
+  name: "axios3-5",
   created() {
     //错误处理
     axios.interceptors.request.use(
