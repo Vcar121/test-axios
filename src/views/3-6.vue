@@ -5,7 +5,6 @@
 <script>
 // @ is an alias to /src
 import axios from "axios";
-
 export default {
   name: "axios3-6",
   created() {
@@ -16,7 +15,7 @@ export default {
         cancelToken: source.token,
       })
       .then((res) => {
-        console.log(res);
+        console.log(res + "?");
       })
       .catch((err) => {
         console.log(err);

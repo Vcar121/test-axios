@@ -5,7 +5,7 @@ import {
 import Home from '../views/Home.vue'
 
 const routes = [{
-    path: '/',
+    path: '/Home',
     name: 'Home',
     component: Home
   },
@@ -31,6 +31,11 @@ const routes = [{
     path: '/3-1',
     name: 'axios3-1',
     component: () => import('../views/3-1.vue')
+  },
+  {
+    path: '/',
+    name: 'ContactList',
+    component: () => import('../views/ContactList.vue')
   }
 ]
 
